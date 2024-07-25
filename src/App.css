@@ -27,6 +27,18 @@
 .App-link {
   color: #61dafb;
 }
+.wind-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  text-align: center;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +48,6 @@
     transform: rotate(360deg);
   }
 }
+/* Add this in your index.css or App.css */
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
